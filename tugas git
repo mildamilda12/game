@@ -1,3 +1,4 @@
 git add .
 if == 12
 # Menginput Angka
+angka = int(input("Menampilkan Tabel Perkalian dari: "))
