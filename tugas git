@@ -35,3 +35,5 @@ if (tahun % 400) == 0:
        #Bukan Tergolong Tahun Kabisat
        else:
    print("{0} bukan Tahun Kabisat".format(tahun))
+
+   import random
