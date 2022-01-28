@@ -57,3 +57,4 @@ else:
              if int(guess) < 1 or int(guess) > 10:
                  raise ValueError("Silakan tebak angka dengan jangkauan yang diberikan")
                   if int(guess) == random_number:
+                      print("Bagus Sekali!")
