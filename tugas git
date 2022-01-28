@@ -47,3 +47,5 @@ else:
       random_number = int(random.randint(1, 10))  
       print("Selamat datang di permainan tebak angka!")  
       player_name = input("Siapa namamu? ")
+      wanna_play = input("Halo, {}, Kamu mau main game tebak-tebakan? (Tekan Ya/Tidak) ".format(player_name))
+      
