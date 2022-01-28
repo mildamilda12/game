@@ -46,3 +46,4 @@ else:
   def start_game():  
       random_number = int(random.randint(1, 10))  
       print("Selamat datang di permainan tebak angka!")  
+      player_name = input("Siapa namamu? ")
