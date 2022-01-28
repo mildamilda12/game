@@ -62,3 +62,5 @@ else:
                       attempts_list.append(attempts)
                       print("Dia membawamu! {} attempts".format(attempts))
                       play_again = input("Kamu mau bermain lagi? (Tekan Ya/Tidak) ")
+                      attempts = 0
+                show_score()
