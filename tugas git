@@ -66,3 +66,5 @@ else:
                 show_score()
                 random_number = int(random.randint(1, 10))
                 if play_again.lower() == "tidak":
+                    print("Keren! Ayo coba lagi!")
+                    break
