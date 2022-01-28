@@ -38,3 +38,4 @@ if (tahun % 400) == 0:
 
    import random
    attempts_list = []
+   def show_score():
