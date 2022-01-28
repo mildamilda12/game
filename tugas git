@@ -43,4 +43,5 @@ if len(attempts_list) <= 0:
     print("Belum ada skor terbaru, ayo dapatkan skor tertinggi sekarang!")
 else:
         print("Skor tertinggi terakhir adalah {} attempts".format(min(attempts_list)))
-  def start_game():      
+  def start_game():  
+      random_number = int(random.randint(1, 10))    
