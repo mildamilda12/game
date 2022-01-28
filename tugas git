@@ -55,3 +55,4 @@ else:
            try:
             guess = input("Pilih sebuah angka antara 1 and 10 ")
              if int(guess) < 1 or int(guess) > 10:
+                 raise ValueError("Silakan tebak angka dengan jangkauan yang diberikan")
