@@ -60,3 +60,4 @@ else:
                       print("Bagus Sekali!")
                       attempts += 1
                       attempts_list.append(attempts)
+                      print("Dia membawamu! {} attempts".format(attempts))
