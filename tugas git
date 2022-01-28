@@ -51,3 +51,4 @@ else:
        // Where the show_score function USED to be
        attempts = 0
        show_score()
+       while wanna_play.lower() == "ya":
