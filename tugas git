@@ -25,4 +25,6 @@ if (tahun % 400) == 0:
     print("{0} adalah Tahun Kabisat".format(tahun))
 
     #Bukan Tergolong Tahun Kabisat
+    else:
+           print("{0} bukan Tahun Kabisat".format(tahun))
  
