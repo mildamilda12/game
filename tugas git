@@ -59,3 +59,4 @@ else:
                   if int(guess) == random_number:
                       print("Bagus Sekali!")
                       attempts += 1
+                      attempts_list.append(attempts)
