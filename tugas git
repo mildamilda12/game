@@ -58,3 +58,4 @@ else:
                  raise ValueError("Silakan tebak angka dengan jangkauan yang diberikan")
                   if int(guess) == random_number:
                       print("Bagus Sekali!")
+                      attempts += 1
