@@ -40,3 +40,4 @@ if (tahun % 400) == 0:
    attempts_list = []
    def show_score():
 if len(attempts_list) <= 0:
+    print("Belum ada skor terbaru, ayo dapatkan skor tertinggi sekarang!")
