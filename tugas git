@@ -44,4 +44,5 @@ if len(attempts_list) <= 0:
 else:
         print("Skor tertinggi terakhir adalah {} attempts".format(min(attempts_list)))
   def start_game():  
-      random_number = int(random.randint(1, 10))    
+      random_number = int(random.randint(1, 10))  
+      print("Selamat datang di permainan tebak angka!")  
