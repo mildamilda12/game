@@ -52,3 +52,5 @@ else:
        attempts = 0
        show_score()
        while wanna_play.lower() == "ya":
+           try:
+            guess = input("Pilih sebuah angka antara 1 and 10 ")
