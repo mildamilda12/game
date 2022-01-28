@@ -16,3 +16,4 @@ for i in range(1, 11):
  if (tahun % 4) == 0:
 
      #Perulangan Kedua
+     if (tahun % 100) == 0:
