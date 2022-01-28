@@ -37,3 +37,4 @@ if (tahun % 400) == 0:
    print("{0} bukan Tahun Kabisat".format(tahun))
 
    import random
+   attempts_list = []
