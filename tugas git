@@ -64,3 +64,5 @@ else:
                       play_again = input("Kamu mau bermain lagi? (Tekan Ya/Tidak) ")
                       attempts = 0
                 show_score()
+                random_number = int(random.randint(1, 10))
+                if play_again.lower() == "tidak":
