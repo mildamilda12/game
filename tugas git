@@ -2,3 +2,4 @@ git add .
 if == 12
 # Menginput Angka
 angka = int(input("Menampilkan Tabel Perkalian dari: "))
+# Menghitung 10 Kali dari Kisaran 1 sampai 10
