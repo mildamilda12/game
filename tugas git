@@ -11,3 +11,5 @@ for i in range(1, 11):
 
  # Menginput Tahun
  tahun = int(input("Tulis Sebuah Tahun: "))
+
+ #Perulangan Pertama
