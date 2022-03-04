@@ -1,4 +1,4 @@
-git add .
+
 if == 12
 # Menginput Angka
 angka = int(input("Menampilkan Tabel Perkalian dari: "))
@@ -21,14 +21,14 @@ for i in range(1, 11):
 #Perulangan Ketiga   
 if (tahun % 400) == 0:
 
-    #Tergolong Tahun Kabisat
+#Tergolong Tahun Kabisat
     print("{0} adalah Tahun Kabisat".format(tahun))
 
-    #Bukan Tergolong Tahun Kabisat
+#Bukan Tergolong Tahun Kabisat
     else:
            print("{0} bukan Tahun Kabisat".format(tahun))
 
-           #Tergolong Tahun Kabisat
+ #Tergolong Tahun Kabisat
  else:
        print("{0} adalah Tahun Kabisat".format(tahun))
 
