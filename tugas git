@@ -52,10 +52,9 @@ else:
        attempts = 0
        show_score()
        while wanna_play.lower() == "ya":
-           try:
+        try:
             guess = input("Pilih sebuah angka antara 1 and 10 ")
              if int(guess) < 1 or int(guess) > 10:
-                 raise ValueError("Silakan tebak angka dengan jangkauan yang diberikan")
                   if int(guess) == random_number:
                       print("Bagus Sekali!")
                       attempts += 1
@@ -65,6 +64,6 @@ else:
                       attempts = 0
                 show_score()
                 random_number = int(random.randint(1, 10))
-                if play_again.lower() == "tidak":
+             if play_again.lower() == "tidak":
                     print("Keren! Ayo coba lagi!")
                     break
